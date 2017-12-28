@@ -17,9 +17,25 @@ Java 开发安全框架:
 - Spring Security 
 - Apache Shiro
 
+Dependency Check 第三方组件安全检查
+`./dependency-check.sh --project "Web" -s ~/Downloads/S2-046-PoC-master/`
 
 爬虫，代理服务:
 - https://scrapinghub.com/crawlera/
+
+- [安全行业从业者自研开源工具清单](https://github.com/We5ter/Scanners-Box)
+- [安全平台框架](https://github.com/martinzhou2015/SRCMS)
+- [XSS跨站平台](https://github.com/imlrhui/xssplatform/tree/master/xssplatform)
+- [攻防演练平台](https://github.com/710leo/ZVulDrill)
+- [巡风系统](https://github.com/ysrc/xunfeng)
+
+
+**SSHFS**  
+目的：通过SSH映射远程服务器目录，进行文件扫描
+步骤：
+- 客户端何服务器安装 sshfs
+- 客户端访问 密码认证 sshfs -o allow_other aka77@hd:/home/aka77/ /mnt/hd
+- 客户端访问 证书认证 sshfs -o IdentityFile=~/.ssh/id_rsa aka77@jp:/home/aka77/ ~/jp
 
 ###  IRC Client for Macos
 - LimeChat_2.42
@@ -84,7 +100,16 @@ Linux
 http://opmk280rf.bkt.clouddn.com/6b3ef5f6d649b4c83183aeea39f2cb74.jpg
 
 
+## 开发
+
+[Developer How To Guide](https://software-security.sans.org/developer-how-to/)
+- How To Fix SQL Injection
+- Cross-Site Scripting (XSS)
+- Cross-Site Request Forgery (CSRF)
+
 ## 测试
+
+
 
 静态扫描：
 - [JAVA代码审计的一些Tips(附脚本)](https://mp.weixin.qq.com/s/josQv1X6YjsttZr1O32j2Q)
@@ -154,3 +179,16 @@ IP
 
 治理：
 - [数据安全](http://opmk280rf.bkt.clouddn.com/6b3ef5f6d649b4c83183aeea39f2cb74.jpg)
+
+
+## 加密技术
+
+Cryptographic Storage Cheat Sheet
+- Key exchange: Diffie–Hellman key exchange with minimum 2048 bits
+- Message Integrity: HMAC-SHA2
+- Message Hash: SHA2 256 bits
+- Assymetric encryption: RSA 2048 bits
+- Symmetric-key algorithm: AES 128 bits
+- Password Hashing: PBKDF2, Scrypt, Bcrypt
+
+
