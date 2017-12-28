@@ -49,6 +49,19 @@ http://opmk280rf.bkt.clouddn.com/6b3ef5f6d649b4c83183aeea39f2cb74.jpg
 持续集成：
 - [安全自动化扫描测试平台实现](https://testerhome.com/topics/10323)
 
+# Sonar 测试框架
+
+[SonarSource Rules]
+
+**Plugins：**
+
+[Dependency Check]
+[ThreadFix] ：The ThreadFix plugin allows importing results from application security scanning tools, such as AppScan, WebInspect, Fortify, Checkmarx, BurpSuite and many others.
+
+[ZAP]：Parses OWASP ZAP reports and imports results into SonarQube
+
+Slack：Multiple independent plugins (with coincidentally identical plugin keys) exist to send SonarQube notifications to the specified Slack channel.
+
 
 测试工具
 - [开源工具](https://testerhome.com/opensource_projects)
