@@ -1,0 +1,419 @@
+# OWASP SFK
+
+基于所提供的功能框架会检测你的应用程序可能存在的威胁。
+
+根据您提供的处理功能，框架将为您提供适合您项目的安全检查表。
+
+**Security checklists** 安全技术要求
+
+Hardening the application infrastructure and functions by providing feedback and solutions.
+
+V1: Architecture, design and threat modelling
+V2: Authentication Verification Requirements
+...
+
+
+**Knowledge Base Security Vulnerabilities**  安全漏洞知识库
+Found a vulnerability in your checklist, and unsure what it means? Search the knowledge base for it's meaning and more importantly how to proceed in fixing the issue.
+ 
+英文常见漏洞库
+- Logging validation failures
+- Forward secrecy ciphers
+- Session ids should be generated with sufficient entropy
+- Error handling on trusted devices
+- Disallow the use of old passwords
+- logging is performed before executing the transaction
+- Canonicalized user input
+- Character encoding
+- concurrent session handling
+- Validated cryptographic modules
+- Authentication based on the knowledge of a secret URL
+- Predictable password and or token generation
+- Single input validation controls
+- Denial of service by locking out accounts
+- Limiting user input size
+- Re authentication
+- Runtime environment
+- HTTP request methods
+- IP adresses in internal HTTP headers
+- Client side validation
+- Insecure transmission of session cookies
+- Client side state management
+- Content type headers
+- Authentication enforced by the web sever
+- Client side storage
+- Verbose version information
+- Segregated components
+- Threat modeling
+- Account lockout
+- TLS implementation must operate in an approved mode of operation
+- Repudiation attack
+- Unnecessary features enabled or installed
+- Verify that the session id is never disclosed
+- data controller display layer sepperation
+- csrf injection
+- GET POST requests
+- CRYPTO CA hierachy
+- Incorrect or missing charset
+- Security settings in your development frameworks
+- centralized security controls
+- SSI injections
+- Input rejection
+- Signed application components
+- Servers must not be trusted without explicit authentication
+- File inclusion attack
+- Submit forms pattern
+- Principle of least privilege
+- External DTD parsing
+- User registration pattern
+- Hardware key vault
+- Resource identifier injection
+- Policy for managing cryptographic keys
+- Keys secrets zeroed
+- SQL injection Column truncation
+- Avoid the use of default and predictable acounts.
+- WYSIWYG editors
+- Access control failure
+- XXE injections
+- Data from untrusted sources
+- Single application level logging
+- Session cookies without the Secure flag
+- Session management control
+- Debug enabeling
+- RFD and file download injections
+- HTTPS and weakly or unencrypted links
+- Insecure datastorage
+- XML injection
+- Directory listing
+- Unauthorized credential changes
+- Logging guidelines
+- Verify integrity using checksums
+- TLS certificate public key pinning
+- Username enumeration
+- The login functionality should always generate a new session id
+- Regular expression injection
+- Are all passwords hashed, salted and stretched
+- Include anti clickjacking headers
+- Sandboxing
+- Approved random number generator
+- User credentials in audit logs
+- Forget password functions
+- The audit log must include a priority system
+- API resonses security headers
+- External session hijacking
+- Session cookies without the HttpOnly flag
+- cryptographic modules must fail securely
+- SOAP basic profile
+- Sensitive information transmitted by unencrypted methods
+- HTML injections
+- Privilege escalation
+- Session information is not stored server side
+- HTTP header injection
+- File upload injections
+- STRIDE
+- HTML Caching
+- Robots.txt
+- Do not support untrusted client side technologies
+- The possible risks to the application must be documented
+- proven authentication mechanisms
+- Include Strict Transport Security header
+- Log rotation and seperation
+- Version management
+- Missing authentication or authorization
+- Malicious intent
+- Audit logs
+- Session IDs do not timeout.(idl)
+- Sensitive information stored alongside the source code
+- Log TLS connection failures
+- Identifier based authorization
+- Sanitize unstructured data
+- LDAP injection
+- Parsing JSON with Javscript
+- Build proccess security hardening
+- Access to any master secret must be protected from unauthorized access
+- administrative interfaces
+- HTTP headers added by a frontend
+- Log injection
+- Sending data parameters to untrusted devices
+- Session Domain cookies
+- Keys passwords should be replaceable
+- Content security policy headers
+- PII protection
+- Enforce policys for sensitive data processing
+- Prevent password leaking
+- Enforce random numbers
+- Automated spamming via feedback scripts
+- Include X Content Type Options header
+- Automatic variable binding
+- sensitive information stored in cookies
+- Dynamic scripting injection
+- Parsing data exchange formats
+- Ensure overall security
+- HSTS preload
+- parsed dynamic scripts
+- fields from trusted and untrusted sources
+- Sessions pattern
+- High level architecture should be defined
+- User restriction for sensitive data
+- All connections should be TLS
+- Build Deploy secure
+- The logout functionality should revoke the complete session
+- cryptographic function implementation
+- Aggregate access control protection
+- Auto escaping technology
+- Command injection
+- No shared knowledge for secret questions
+- Open forward and Open redirects
+- Proces high value business logic flows in a trusted environment
+- step up or adaptive authentication
+- Protection header
+- XSLT injections
+- Aggregate user requests
+- Available log analysis tools
+- Server side validation
+- Deny access from remote resources or systems
+- Does The application enforce the use of secure passwords
+- identify all application components
+- Intrusion detecting and reporting
+- Safe javascript jquery methods
+- Insecure internal communication
+- Brute force password guessing
+- Verbose error messaging
+- Cryptographic modules should operate in their approved mode according to their published security policies
+- Logging implemented on the serverside
+- Logout structuring
+- HTTP strict transport security
+- Client side authentication
+- Differential analysis attack
+- caching headers
+- cross subdomain cookie attack
+- Certificate paths revocation information
+- extraneous files in document root
+- failure logging
+- Access control pattern
+- Unproven cryptographic algorithms
+- Double decoding of headers parameters
+- OCSP stapling
+- Access management
+- JSON XML schema
+- Possible attackers of the application must be documented
+- All authentication controls must fail securely
+- XML
+- Prepared statements and query parameterization
+- Password forget pattern
+- Positive validation model
+- Filename injection Path traversel
+- The crossdomain.xml should only contains trusted domains
+- Absolute session time out
+- Enforce sequential step order
+- CA certificates
+- Signed message payloads
+- Cross origin resource sharing
+- Input validation
+- X Path injections
+- sanitise sensitive data rapidly from memory
+- identify external dependencies
+- Authentication at a central location
+- xss injection
+- User generated session ids should be rejected by the server
+
+中文：
+- 记录验证失败
+- 前向保密密码
+- 应该产生具有足够熵的会话ID
+- 受信任的设备处理错误
+- 不允许使用旧密码
+- 执行事务之前执行日志记录
+- 规范用户输入
+- 字符编码
+- 并发会话处理
+- 验证加密模块
+- 基于秘密URL知识的认证
+- 可预测的密码和令牌生成
+- 单输入验证控件
+- 锁定帐户拒绝服务
+- 限制用户输入的大小
+- 重新认证
+- 运行时环境
+- HTTP请求方式
+- 内部HTTP标头中的IP地址
+- 客户端验证
+- 不安全的传输会话cookie
+- 客户端状态管理
+- 内容类型标题
+- Web服务器执行的身份验证
+- 客户端存储
+- 详细版本信息
+- 隔离组件
+- 威胁建模
+- 帐号锁定
+- TLS实施必须在批准的操作模式下运行
+- 免疫攻击
+- 启用或安装不必要的功能
+- 验证会话ID是不会被公开的
+- 数据控制器显示层分离
+- csrf注射
+- GET POST请求
+- CRYPTO CA hierachy
+- 错误或缺少字符集
+- 开发框架中的安全设置
+- 集中安全控制
+- SSI注射
+- 输入拒绝
+- 签名的应用程序组件
+- 如果没有显式身份验证，服务器不可信任
+- 文件夹入攻击
+- 提交表格模式
+- 最低特权原则
+- 外部DTD解析
+- 用户注册模式
+- 硬件钥匙库
+- 资源标识符注入
+- 管理加密密钥的策略
+- 钥匙秘密归零
+- SQL注入列截断
+- 避免使用默认和可预测的数据。
+- 所见即所得编辑
+- 访问控制失败
+- XXE注射
+- 来自不信任来源的数据
+- 单应用级别日志记录
+- 没有安全标志的会话cookie
+- 会话管理控制
+- 调试加标
+- RFD和文件下载注册
+- HTTPS和弱或未加密的链接
+- 不安全的数据存储
+- XML注入
+- 目录列表
+- 未经授权的凭据更改
+- 记录指南
+- 使用校验和验证完整性
+- TLS证书公钥固定
+- 用户名列举
+- 登录功能应该始终生成一个新的会话ID
+- 正则表达式注入
+- 所有密码是否散列，盐渍和拉伸
+- 包括防劫机标头
+- 沙箱
+- 批准的随机数发生器
+- 审核日志中的用户凭据
+- 忘记密码功能
+- 审计日志必须包括一个优先系统
+- API重新安全标头
+- 外部会话劫持
+- Session没有HttpOnly标志
+- 加密模块必须安全地失败
+- SOAP基本配置文件
+- 通过未加密方法传输的敏感信息
+- HTML注入
+- 特权升级
+- 会话信息不存储在服务器端
+- HTTP标头注入
+- 文件上传注入
+- STRIDE
+- HTML缓存
+- robots.txt的
+- 不支持不受信任的客户端技术
+- 必须记录应用程序的可能风险
+- 成熟的认证机制
+- 包括严格的运输安全标头
+- 记录旋转和分离
+- 版本管理
+- 缺少认证或授权
+- 恶意
+- 审核日志
+- 会话ID不超时（idl）
+- 与源代码一起存储的敏感信息
+- 记录TLS连接失败
+- 基于标识符的授权
+- 消除非结构化数据
+- LDAP注入
+- 用Javscript分析JSON
+- 构建处理安全性强化
+- 必须保护访问任何主密码以防止未经授权的访问
+- 管理界面
+- 由前端添加的HTTP标头
+- 日志注入
+- 将数据参数发送到不受信任的设备
+- 会话域Cookie
+- 钥匙密码应该是可更换的
+- 内容安全策略标题
+- PII保护
+- 执行敏感数据处理策略
+- 防止密码泄露
+- 强制执行随机数
+- 通过反馈脚本自动发送垃圾邮件
+- 包含X内容类型选项标题
+- 自动变量绑定
+- 敏感信息存储在cookie中
+- 动态脚本注入
+- 解析数据交换格式
+- 确保整体安全
+- HSTS预载
+- 解析动态脚本
+- 来自信任和不信任来源的字段
+- 会话模式
+- 应定义高级架构
+- 敏感数据的用户限制
+- 所有连接应为TLS
+- 构建部署安全
+- 注销功能应该撤消完整的会话
+- 加密功能实现
+- 综合访问控制保护
+- 自动逃逸技术
+- 命令注入
+- 没有秘密问题的共同知识
+- 打开转发和打开重定向
+- 在受信任的环境中执行高价值业务逻辑流程
+- 加强或自适应认证
+- 保护头
+- XSLT注射
+- 聚合用户请求
+- 可用的日志分析工具
+- 服务器端验证
+- 从远程资源或系统拒绝访问
+- 应用程序是否强制使用安全密码
+- 识别所有应用程序组件
+- 入侵检测和报告
+- 安全的javascript jquery方法
+- 不安全的内部沟通
+- 暴力密码猜测
+- 详细的错误信息
+- 加密模块应根据其已发布的安全策略在其批准模式下运行
+- 在服务器端实现日志记录
+- 注销结构化
+- HTTP严格传输安全
+- 客户端认证
+- 差分分析攻击
+- 缓存标题
+- 跨子网域cookie攻击
+- 证书路径撤销信息
+- 文件根目录中的无关文件
+- 故障记录
+- 访问控制模式
+- 未经验证的加密算法
+- 标头参数双重解码
+- OCSP装订
+- 访问管理
+- JSON XML模式
+- 必须记录应用程序的可能攻击者
+- 所有认证控制必须安全地失败
+- XML
+- 准备语句和查询参数化
+- 密码忘记模式
+- 积极的验证模型
+- 文件名注入路径遍历
+- crossdomain.xml应该只包含受信任的域
+- 绝对会话超时
+- 执行顺序步骤顺序
+- CA证书
+- 签名消息有效载荷
+- 跨源资源共享
+- 输入验证
+- X路径注射
+- 从内存中快速清除敏感数据
+- 识别外部依赖关系
+- 在中心位置进行验证
+- xss注射
+- 用户生成的会话ID应被服务器拒绝

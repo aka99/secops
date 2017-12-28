@@ -17,6 +17,13 @@ Java 开发安全框架:
 - Spring Security 
 - Apache Shiro
 
+Spring Boot 入门
+- [入门教程](https://github.com/ChaoZeyi/SpringBootLearning)
+- [项目管理利器maven](http://www.imooc.com/learn/443)
+- [Spring入门篇](http://www.imooc.com/learn/196)
+
+
+https://github.com/ChaoZeyi/SpringBootLearning
 安全技能： 
 - sqlmap 、mitmproxy  BeEF 
 
@@ -25,9 +32,28 @@ Web安全标准：
 - OWASP 
 - WASC
 
-GitHub 泄露监控系统
 
-- [Hawkeye](https://github.com/0xbug/Hawkeye)
+GitHub 泄露监控系统/工具
+
+- [Hawkeye](https://github.com/0xbug/Hawkeye) 泄露监控系统
+- [gitrob](https://github.com/michenriksen/gitrob
+) Ruby开发，支持通过postgresql数据库
+- [weakfilescan](https://github.com/ring04h/weakfilescan
+) Python开发，多线程，猪猪侠开发中文注释，个性化定制，需要beautifulsoup4,用于渗透人员在对网站进行网站渗透时查找敏感文件（配置文件、临时文件）、敏感目录，会首先爬取目标站点的三层目录资源，生成目录FUZZ和文件FUZZ
+- [GitPrey](https://github.com/repoog/GitPrey
+) Python开发，国人开发中文支持，用于企业搜索关键词，及时发现潜在的敏感信息，需要登录
+- [GitMiner](https://github.com/UnkL4b/GitMiner
+) Python开发，功能简单
+
+
+社工库：
+
+- http://cha.hx99.net
+- http://163.donothackme.club/
+- [社工库](http://s.70sec.com/)
+- [邮箱库](http://email.70sec.com/)
+- 163.donothackme.club/
+- https://www.70sec.com/
 
 ## 数据库安全
 
