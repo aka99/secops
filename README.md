@@ -17,6 +17,16 @@ Java 开发安全框架:
 - Spring Security 
 - Apache Shiro
 
+
+爬虫，代理服务:
+- https://scrapinghub.com/crawlera/
+
+###  IRC Client for Macos
+- LimeChat_2.42
+
+Android
+- BytecodeViewer Java Jar 代码查看，比jd-gui强
+
 Spring Boot 入门
 - [入门教程](https://github.com/ChaoZeyi/SpringBootLearning)
 - [项目管理利器maven](http://www.imooc.com/learn/443)
