@@ -191,4 +191,7 @@ Cryptographic Storage Cheat Sheet
 - Symmetric-key algorithm: AES 128 bits
 - Password Hashing: PBKDF2, Scrypt, Bcrypt
 
+## 书籍
+
+[《微服务：从设计到部署》中文版](https://github.com/DocsHome/microservices)
 
