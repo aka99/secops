@@ -17,6 +17,9 @@ Java 开发安全框架:
 - Spring Security 
 - Apache Shiro
 
+[Spring Security DEMO & Guides](https://github.com/ChinaSilence/any-spring-security)
+[Spring Boot 最佳实战，精致UI，丰富内容](Java 爬虫)
+
 Dependency Check 第三方组件安全检查
 `./dependency-check.sh --project "Web" -s ~/Downloads/S2-046-PoC-master/`
 
