@@ -29,6 +29,10 @@ Dependency Check 第三方组件安全检查
 爬虫，代理服务:
 - https://scrapinghub.com/crawlera/
 
+静态扫描：
+- https://github.com/scovetta/yasca
+
+
 - [安全行业从业者自研开源工具清单](https://github.com/We5ter/Scanners-Box)
 - [安全平台框架](https://github.com/martinzhou2015/SRCMS)
 - [XSS跨站平台](https://github.com/imlrhui/xssplatform/tree/master/xssplatform)
