@@ -125,8 +125,6 @@ http://opmk280rf.bkt.clouddn.com/6b3ef5f6d649b4c83183aeea39f2cb74.jpg
 
 ## 测试
 
-
-
 静态扫描：
 - [JAVA代码审计的一些Tips(附脚本)](https://mp.weixin.qq.com/s/josQv1X6YjsttZr1O32j2Q)
 - [民生银行源代码安全研究与实践](http://www.talkwithtrend.com/Article/216897)
@@ -138,7 +136,7 @@ http://opmk280rf.bkt.clouddn.com/6b3ef5f6d649b4c83183aeea39f2cb74.jpg
 持续集成：
 - [安全自动化扫描测试平台实现](https://testerhome.com/topics/10323)
 
-# Sonar 测试框架
+### Sonar 测试框架
 
 [SonarSource Rules]
 
@@ -152,7 +150,7 @@ http://opmk280rf.bkt.clouddn.com/6b3ef5f6d649b4c83183aeea39f2cb74.jpg
 Slack：Multiple independent plugins (with coincidentally identical plugin keys) exist to send SonarQube notifications to the specified Slack channel.
 
 
-测试工具
+### 测试工具
 - [开源工具](https://testerhome.com/opensource_projects)
 - [Hitchhiker](http://doc.hitchhiker-api.com/cn/) 是一款开源的 Restful Api 测试工具，支持Schedule, 数据对比，压力测试，支持上传脚本定制请求，可以轻松部署到本地，和你的team成员一起管理Api
 
@@ -166,6 +164,10 @@ CNVD：
 
 CVSS:
 - [漏洞盒子中文CVSS](https://www.vulbox.com/cvss)
+
+### 漏洞管理
+
+[creditease-sec/insight](https://github.com/creditease-sec/insight) 洞察-宜信集应用系统资产管理、漏洞全生命周期管理、安全知识库管理三位一体的平台。
 
 ## 移动安全
 ### Android 安全
@@ -195,6 +197,18 @@ IP
 
 治理：
 - [数据安全](http://opmk280rf.bkt.clouddn.com/6b3ef5f6d649b4c83183aeea39f2cb74.jpg)
+
+
+## 区块链
+
+### 超级账本
+
+[中文翻译材料](https://hyperledgercn.github.io/)
+
+Fabric / Composer 入门：
+- [建模和测试您的区块链网络](https://www.ibm.com/developerworks/cn/cloud/library/cl-model-test-your-blockchain-network-with-hyperledger-composer-playground/index.html?ca=drs-)
+- [完善并部署您的区块链网络](https://www.ibm.com/developerworks/cn/cloud/library/cl-refine-deploy-your-blockchain-network-with-hyperledger-composer-playground/index.html)
+- [在本地部署您的区块链网络，与之交互并扩展它](https://www.ibm.com/developerworks/cn/cloud/library/cl-deploy-interact-extend-local-blockchain-network-with-hyperledger-composer/index.html)
 
 
 ## 加密技术
