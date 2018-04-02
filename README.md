@@ -91,6 +91,11 @@ GitHub 泄露监控系统/工具
 - 163.donothackme.club/
 - https://www.70sec.com/
 
+## 主机安全
+
+[驭龙 HIDS](https://github.com/ysrc/yulong-hids) 一款由 YSRC 开源的主机入侵检测系统
+
+
 ## 数据库安全
 
 数据库中间件:
